@@ -1,17 +1,25 @@
-.event {
+html {
+    background-color: beige;
+}
+
+.row {
     border: 5px;
     margin-top: 20px;
 }
 
-.year {
-    font-size: 24px;
-    font-weight: bold;
-    margin-left: 30px;
-    margin-bottom: 0px;
+.column {
+  float: left;
+  padding: 10px;
 }
 
-.content {
-    font-size: 18px;
-    margin-left: 50px;
+.left {
+  text-align: right;
+  font-size: 24px;
+  width: 10%;
+}
+
+.right {
+  width: 80%;
+  border-left: outset red;
 }
 
